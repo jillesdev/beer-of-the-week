@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  # resources :orders
+  resources :orders
   resources :beers do
     member do
       get :like
