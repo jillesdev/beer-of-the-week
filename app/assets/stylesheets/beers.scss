@@ -1,36 +1,35 @@
 // Place all the styles related to the Beers controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
 body{
-  background-image:url("http://3.bp.blogspot.com/-Ulrnjj1rIno/UgyvAxVispI/AAAAAAAAyqA/mSmVmpAlubo/s1600/fondoennaranjaparaimprimir4.gif");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-attachment:fixed;
-  font-family: Helvetica, Arial, sans-serif;
-  color: white;
-  font-size: 15px;
+ background-image:url("http://3.bp.blogspot.com/-Ulrnjj1rIno/UgyvAxVispI/AAAAAAAAyqA/mSmVmpAlubo/s1600/fondoennaranjaparaimprimir4.gif (650KB)
+");
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ background-attachment:fixed;
+ font-family: Helvetica, Arial, sans-serif;
+ color: white;
+ font-size: 15px;
 }
 
 h1{
-  text-transform: uppercase;
-  font-size: 30px;
-  color: White;
-  margin: 0px;
-  padding-top: 10px;
+ text-transform: uppercase;
+ font-size: 30px;
+ color: White;
+ margin: 0px;
+ padding-top: 10px;
 }
 
 h2{
-  font-size: 20px;
-  color: White;
-  margin: 0px;
+ font-size: 20px;
+ color: White;
+ margin: 0px;
 }
 
 p{
-  width: 600px;
-  text-align: justify;
+ width: 600px;
+ text-align: justify;
 }
-
 
 a{
 color: yellow;
@@ -102,4 +101,47 @@ padding: 10px;
   color: white;
   font-size: 9px;
   padding-top: 5px;
+}
+
+.header{
+ width:900px;
+ height: 60px;
+ background-color: #4D4D4D;
+ text-align: center;
+ color: Black;
+ border-top-right-radius: 25px;
+ border-top-left-radius: 25px;
+}
+
+.rightbar{
+ background-color: #4D4D4D;
+ width:100px;
+ height: 940px;
+ float: right;
+ border-bottom-right-radius: 25px;
+}
+
+.topcontent{
+   width:800px;
+   height: 440px;
+   background-color: #fb892b;
+   text-align: center;
+}
+
+.bottemcontent{
+ width:800px;
+ height: 475px;
+ background-color: #fb892b;
+ border-bottom-left-radius: 25px;
+}
+
+.footer{
+ text-align: center;
+ width:800px;
+ height: 20px;
+ background-color: #4D4D4D;
+ border-bottom-left-radius: 25px;
+ color: white;
+ font-size: 9px;
+ padding-top: 5px;
 }
