@@ -12,9 +12,13 @@
   <% end %>
 
 <div class="field">
-<input type="checkbox" name="Age" value="Age"> I am 18 years or older<br>
+<input type="checkbox" name="Age" value="Age" required> I am 18 years or older<br>
 </div>
 
+  <div class="field">
+    <%= f.label :how_many_six_packs_would_you_like_to_order_? %><br>
+    <%= f.text_field :quantity %>
+  </div>
   <div class="field">
     <%= f.label :first_name %><br>
     <%= f.text_field :first_name %>
