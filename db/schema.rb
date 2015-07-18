@@ -34,6 +34,7 @@ ActiveRecord::Schema.define(version: 20150718160959) do
     t.string   "email"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
+    t.integer  "quantity"
   end
 
   create_table "votes", force: :cascade do |t|
