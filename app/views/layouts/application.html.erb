@@ -7,8 +7,27 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div class="site">
+    <div class="header">
+      <h1>Beer of the week!</h1>
+    </div>
+    <div class="menu">
+    <ul>
+     <li><%= link_to 'Home', root_path %></li>
+     <li><a href="order.html"><u>Order</u></a></li>
+    </ul>
+    </div>
+  <div class="rightbar">
+  </div>
 
+  <div class="topcontent">
 <%= yield %>
-
+</div>
+  <div class="bottemcontent">
+  </div>
+  <div class="footer">
+    &#169; Copyright 2015
+  </div>
+</div>
 </body>
 </html>

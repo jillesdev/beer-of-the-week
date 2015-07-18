@@ -80,14 +80,18 @@ padding: 10px;
 }
 .topcontent{
     width:800px;
-    height: 440px;
+    height: 740px;
     background-color: yellow;
     text-align: center;
+}
+.topcontent img{
+  max-width:500px;
+  max-height: 500px;
 }
 
 .bottemcontent{
   width:800px;
-  height: 475px;
+  height: 175px;
   background-color: red;
   border-bottom-left-radius: 25px;
 }

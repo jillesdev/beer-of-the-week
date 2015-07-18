@@ -1,6 +1,27 @@
 class BeersController < ApplicationController
   before_action :set_beer, only: [:show, :edit, :update, :destroy]
 
+def home
+  @beer = Beer.last
+end
+
+  def like
+    @beer = Beer.find(params[:id])
+    @oudepunten =   @beer.points
+    @beer.points = @oudepunten +  1
+    @beer.save!
+    redirect_to :back
+    # render text: "Je hebt dit biertje gewelliked #{@beer.name}"
+  end
+
+  def dislike
+    @beer = Beer.find(params[:id])
+    @oudepunten =   @beer.dislikes
+    @beer.dislikes = @oudepunten +  1
+    @beer.save!
+    redirect_to :back
+  end
+
   # GET /beers
   # GET /beers.json
   def index

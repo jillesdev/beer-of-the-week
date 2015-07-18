@@ -1,0 +1,28 @@
+<br/>
+<h2> What do you think of ...</h2>
+<br/>
+<h1><%= @beer.name %></h1>
+<br/>
+<br/>
+<tr>
+  <td><%= image_tag @beer.picture %></td>
+  <br/>
+  <br/>
+  <strong> Price</strong>: &#8364;
+<td><%= @beer.price %></td>
+<br/>
+
+
+<!-- <td><%= @beer.score %></td> -->
+<%= link_to "LIKE DIT BIERTJE",like_beer_path(@beer) %> :
+<td><%= @beer.points %></td> likes.
+
+<br/>
+
+<%= link_to "DISLIKE DIT BIERTJE",dislike_beer_path(@beer) %> :
+<td><%= @beer.dislikes %></td> dislikes.
+
+<br/>
+<br/>
+<td><%= @beer.description %></td>
+</tr>
